@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icnon - About Me</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="shortcut icon" href="./assets/public/favicon.svg"/>
+</head>
+<body>
+    <div class="head">
+        <div class="main">
+            <a href="./index.html" class="logo"><img src="./assets/public/logo_text.svg"></a>
+            <div class="menu">
+                <li class="magical btn" onclick="window.location.href='./home.html'">首页</li>
+                <li class="magical btn" onclick="window.location.href='./work.html'">作品</li>
+                <li class="magical btn nav" onclick="window.location.href='./about.html'">关于</li>
+            </div>
+            <div class="menu" id="menu-expand">
+                <li class="magical btn skin" id="menu-expand-child"><i class="icon menu-icon"></i></li>
+            </div>
+            <div id="menu-panel">
+                <div class="menu-panel-content">
+                    <li class="magical btn" onclick="window.location.href='./home.html'">首页</li>
+                    <li class="magical btn" onclick="window.location.href='./work.html'">作品</li>
+                    <li class="magical btn nav" onclick="window.location.href='./about.html'">关于</li>
+                </div>
+            </div>
+        </div>
+        <blockquote><img src="./assets/public/logo.svg"></blockquote>
+    </div>
+    <div class="about">
+        <div class="about-top">
+            <div class="about-name">杨晨</div>
+            <div class="about-info">
+                <div class="about-info-left">
+                    <div class="about-info-title">Introduce</div>
+                    <div class="introduce-desc">
+                        🥳 目前是一名UI设计师，现阶段在学习AI和前端的知识，立志成为一名运用AI技术实现有趣想法的设计工程师！<br><br>
+                        👀 有良好的审美和视觉洞察力，关注设计流行趋势，热衷于探索前沿设计，精通Sketch、PS、AI、Blender等。<br><br>
+                        👨🏻‍💻 擅长C端设计，理解用户体验，并运用组件化思维有效提升工作效率。把握细节、追求像素级精准还原设计稿。有较强的执行力和逻辑思维，能快速理解需求按计划和优先级统筹工作。<br><br>
+                        🍔 热爱美食，旅行（在10+以上城市留下过足迹），游戏动漫（喜欢开放世界冒险类型游戏，半个二次元），喜欢悬疑推理、科幻类电影。狼人杀爱好者。
+                    </div>
+                </div>
+                <div class="about-info-right">
+                    <div class="contact">
+                        <div class="about-info-title">Contact</div>
+                        <div class="contact-desc">
+                            <div class="list">
+                                <div class="list-label">手机：</div>
+                                <div href="javascript:" class="list-value" id="email" tabindex="0" role="button"  title="点击复制">
+                                    <a id="emailCopied">15859173050</a>
+                                </div>
+                                <span class="list-value copied">copied&nbsp;✓</span>
+                            </div>
+                            <div class="list">
+                                <div class="list-label">微信：</div>
+                                <div class="list-value">
+                                    <a class="tooltip">okaym2024
+                                        <div class="tooltip-box">
+                                            <img src="./assets/about/wechat.png">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume">
+                        <div class="about-info-title resume-title">Portfolio</div>
+                        <div class="resume-desc">
+                            <div class="resume-desc-helptext">下载我的作品集 (PDF & 7MB)</div>
+                            <div class="magical resume-btn"><a href="" onclick="return false">Download</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-middle">
+            <div class="power">
+                <div class="list-01">
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/abstract.svg')"></div>
+                            <div class="card-text">结构、系统化设计思维，注重逻辑与驱动</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/menu.svg')"></div>
+                            <div class="card-text">设计资产组件化，探索设计领域</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/code.svg')"></div>
+                            <div class="card-text">开发、角色共情能力，利用工程化思维解决问题</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/pin.svg')"></div>
+                            <div class="card-text">丰富的C端多行业产品设计经验，像素强迫症</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/pen.svg')"></div>
+                            <div class="card-text">对新鲜事物有好奇心，学习不同领域的知识</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-bottom">
+            <div class="experience">
+                <div class="item">
+                    <div class="time">❖ 2019.10 - 至今</div>
+                    <div class="name">
+                        <div class="company"><a>拼乐多科技有限公司</a></div>
+                        <div class="job">产品研发部 UI 设计师</div>
+                    </div>
+                    <div class="project-experience">
+                        <div class="item">
+                            <div class="title">工作内容</div>
+                            <div class="desc">
+                                <ul>
+                                    <li>拼乐多 APP设计，根据产品原型提交完整的视觉体验设计方案，与开发人员完成静态和动态的界面展示</li>
+                                    <li>EOS链Dapp产品设计与更新，与产品经理一起构思创意落地，为产品提供设计方案，跟踪还原设计稿</li>
+                                    <li>哈德教育 APP设计，制定视觉、交互设计规范，推动设计进程</li>
+                                    <li>制定产品整体视觉风格、设计规范，包括色调、图标、组件库等</li>
+                                    <li>公司外包项目设计，运营设计，包括节日活动H5界面、APP 节日插画开屏页、和Banner等。</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="time">❖ 2018.12 - 2019.10</div>
+                    <div class="name">
+                        <div class="company"><a>乐住科技有限公司</a></div>
+                        <div class="job">技术部 UI 设计师</div>
+                    </div>
+                    <div class="project-experience">
+                        <div class="item">
+                            <div class="title">工作内容</div>
+                            <div class="desc">
+                                <ul>
+                                    <li>负责公司微住APP2.0，微住小程序更新迭代</li>
+                                    <li>负责我想创业APP1.0产品设计，色调、图标、文字排版等</li>
+                                    <li>负责微住商家APP1.0产品设计</li>
+                                    <li>负责身份宝智慧社区小程序，事件上报迭代更新视觉设计</li>
+                                    <li>日常配合小程序、IOS、Android工程师，界面切图标注，测试产品，共同完善项目进度</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="time">❖ 2017.06 - 2018.11</div>
+                    <div class="name">
+                        <div class="company"><a>印了么信息科技有限公司</a></div>
+                        <div class="job">设计部 UI 设计师</div>
+                    </div>
+                    <div class="project-experience">
+                        <div class="item">
+                            <div class="title">工作内容</div>
+                            <div class="desc">
+                                <ul>
+                                    <li>负责公司产品UI设计</li>
+                                    <li>负责公司电商视觉设计（天猫旗舰店，淘宝店铺，京东店铺），平面类设计（名片，宣传页，海报等）</li>
+                                    <li>产品设计，使用Axure、墨刀制作低保真原型图</li>
+                                    <li>参与外包项目，负责视觉设计，H5宣传设计等</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="copyright">
+            <div>© 2024 Design by Asorn</div>
+            <span>|</span>
+            <div class="fillings">
+                <a href="" onclick="return false">Icnon</a>
+            </div>
+        </div>
+    </div>
+    <div class="widget">
+        <div class="shape-light"></div>
+        <div class="shape-star">
+            <div class="rising-stars rising-stars-visible">
+                <div style="height:1px;width:1px"></div>
+                <div style="height:2px;width:2px"></div>
+                <div style="height:1px;width:1px"></div>
+            </div>
+        </div>
+        <div class="shape-earth"></div>
+    </div>
+</body>
+<script src="./js/main.min.js"></script>
+</html>
